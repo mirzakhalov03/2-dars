@@ -1,0 +1,46 @@
+.hero{
+    height: 80vh;
+    background-color: #F8F8F8;
+    background: url("../../assets/images/hero.png");
+    // background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    .hero__hug{
+        width: 400px;
+        height: 500px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        padding: 50px 20px;
+
+        h1{
+            font-size: 47px;
+            line-height: 58px;
+            font-weight: 400;
+        }
+
+        span{
+            color: #343434;
+            font-size: 20px;
+            line-height: 20px;
+        }
+
+        button{
+            background-color: #067A46;
+            height: 50px;
+            width: 150px;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-size: 16px;
+            font-weight: 600;
+        }
+    }
+}

@@ -1,0 +1,41 @@
+.plans{
+    height:300px;
+    background: url("../../assets/images/plan.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 50px;
+
+
+    .plan__hug{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        flex-direction: column;
+    }
+
+
+    h1{
+        font-size: 47px;
+        line-height: 58px;
+        font-weight: 400;
+    }
+
+    span{
+        color: #343434;
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    button{
+        background-color: #067A46;
+        height: 50px;
+        width: 150px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-size: 16px;
+        font-weight: 600;
+    }
+}
